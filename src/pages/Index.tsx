@@ -42,8 +42,8 @@ const Index = () => {
       {/* Header */}
       <header className="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-100">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-          <a href="#hero" className="font-display text-2xl font-700 tracking-tight">
-С<span className="text-neutral-400">ПК</span>
+          <a href="#hero" className="flex items-center">
+            <img src="https://cdn.poehali.dev/projects/77b61f77-6f38-4474-baec-3b320275bcb3/bucket/5d46f791-7408-48b0-904a-ca92ad73c006.png" alt="СПК" className="h-10 w-auto" />
           </a>
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((l) => (
@@ -238,7 +238,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-neutral-900 text-neutral-400 py-12">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-display text-xl text-white">С<span className="text-neutral-500">ПК</span></span>
+          <img src="https://cdn.poehali.dev/projects/77b61f77-6f38-4474-baec-3b320275bcb3/bucket/5d46f791-7408-48b0-904a-ca92ad73c006.png" alt="СПК" className="h-8 w-auto brightness-0 invert opacity-80" />
           <span className="text-sm">© 2026 СПК. Все права защищены.</span>
         </div>
       </footer>
