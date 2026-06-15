@@ -43,7 +43,7 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-100">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
           <a href="#hero" className="font-display text-2xl font-700 tracking-tight">
-            СТРОЙ<span className="text-neutral-400">ГРАД</span>
+С<span className="text-neutral-400">ПК</span>
           </a>
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((l) => (
@@ -238,8 +238,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-neutral-900 text-neutral-400 py-12">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-display text-xl text-white">СТРОЙ<span className="text-neutral-500">ГРАД</span></span>
-          <span className="text-sm">© 2026 СтройГрад. Все права защищены.</span>
+          <span className="font-display text-xl text-white">С<span className="text-neutral-500">ПК</span></span>
+          <span className="text-sm">© 2026 СПК. Все права защищены.</span>
         </div>
       </footer>
     </div>
