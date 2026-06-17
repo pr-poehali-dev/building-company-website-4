@@ -259,7 +259,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-spk-dark text-slate-400 py-12">
+      <footer className="bg-spk-dark text-slate-400 py-6">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <img src={LOGO} alt="СПК" className="h-8 w-auto brightness-0 invert opacity-80" />
           <span className="text-sm">© 2026 СПК. Все права защищены.</span>
