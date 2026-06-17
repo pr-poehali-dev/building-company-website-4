@@ -77,7 +77,7 @@ const Index = () => {
           <div className="animate-fade-in">
             <p className="text-sm uppercase tracking-[0.3em] text-spk-steel mb-6 flex items-center gap-2">
               <span className="inline-block w-8 h-0.5 bg-spk-yellow"></span>
-              Строительная компания
+              СтройПромКонтракт
             </p>
             <h1 className="font-display text-5xl md:text-7xl font-600 leading-[1.05] tracking-tight text-balance text-spk-dark">
               Строим пространства, в которых хочется жить
