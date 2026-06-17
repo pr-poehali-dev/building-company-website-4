@@ -25,7 +25,7 @@ const services = [
 
 const projects = [
   { img: IMG_1, title: 'Жилой комплекс «Линия»', tag: 'Многоэтажное строительство', year: '2024' },
-  { img: IMG_2, title: 'Частный дом в Подмосковье', tag: 'Загородное строительство', year: '2023' },
+  { img: IMG_2, title: 'Частный дом в Воронеже', tag: 'Загородное строительство', year: '2023' },
   { img: IMG_3, title: 'Реконструкция апартаментов', tag: 'Отделка и интерьер', year: '2024' },
 ];
 
@@ -94,7 +94,7 @@ const Index = () => {
               </Button>
             </div>
             <div className="mt-16 flex gap-12">
-              {[['15', 'лет на рынке'], ['250+', 'объектов'], ['98%', 'в срок']].map(([n, t]) => (
+              {[['2', 'года на рынке'], ['250+', 'объектов'], ['98%', 'в срок']].map(([n, t]) => (
                 <div key={t}>
                   <div className="font-display text-4xl font-600 text-spk-dark">{n}</div>
                   <div className="text-sm text-spk-steel mt-1">{t}</div>
@@ -181,7 +181,7 @@ const Index = () => {
               Команда, которая доводит до результата
             </h2>
             <p className="mt-8 text-slate-400 leading-relaxed">
-              С 2009 года мы строим жилые и коммерческие объекты по всей стране. Наш принцип — честность, прозрачные сметы и неизменное качество на каждом этапе.
+              С 2023 года мы строим жилые и коммерческие объекты по всей стране. Наш принцип — честность, прозрачные сметы и неизменное качество на каждом этапе.
             </p>
             <div className="mt-10 grid grid-cols-2 gap-8">
               {[['Собственная техника', 'Wrench'], ['Гарантия 5 лет', 'ShieldCheck'], ['Фиксированная цена', 'BadgeRussianRuble'], ['Сдача в срок', 'CalendarCheck']].map(([t, ic]) => (
@@ -237,7 +237,7 @@ const Index = () => {
               Оставьте заявку — рассчитаем стоимость и сроки в течение одного рабочего дня.
             </p>
             <div className="mt-10 space-y-5">
-              {[['Phone', '+7 (495) 000-00-00'], ['Mail', 'hello@spk.ru'], ['MapPin', 'Москва, ул. Строителей, 12']].map(([ic, t]) => (
+              {[['Phone', '+7 (495) 000-00-00'], ['Mail', 'hello@spk.ru'], ['MapPin', 'Воронеж, ул. Свободы, 73']].map(([ic, t]) => (
                 <div key={t} className="flex items-center gap-4">
                   <div className="w-10 h-10 bg-spk-yellow flex items-center justify-center flex-shrink-0">
                     <Icon name={ic} size={18} className="text-spk-dark" />
