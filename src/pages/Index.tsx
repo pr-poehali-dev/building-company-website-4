@@ -225,7 +225,7 @@ const Index = () => {
       </section>
 
       {/* Contacts */}
-      <section id="contacts" className="py-28 bg-white">
+      <section id="contacts" className="pt-28 pb-12 bg-white">
         <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-16">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-spk-steel mb-4 flex items-center gap-2">
