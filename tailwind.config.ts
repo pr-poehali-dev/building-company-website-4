@@ -24,6 +24,9 @@ export default {
 				body: ['Golos Text', 'sans-serif'],
 			},
 			colors: {
+				'spk-yellow': 'hsl(var(--spk-yellow))',
+				'spk-steel': 'hsl(var(--spk-steel))',
+				'spk-dark': 'hsl(var(--spk-dark))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
